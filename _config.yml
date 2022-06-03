@@ -1,1 +1,4 @@
-theme: jekyll-theme-minimal
+theme: minima
+
+header_pages:
+  - "16_GI Assigment 16/GI-16_notes/index.md"

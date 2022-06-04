@@ -1,4 +1,13 @@
 theme: minima
 
+author:
+  name: vange
+  email: hello@vange.li
+
+minima:
+  social_links:
+    github: vrvg
+    instagram: vangelisious
+
 header_pages:
   - "16_GI Assigment 16/GI-16_notes/index.md"

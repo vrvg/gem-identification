@@ -1,0 +1,48 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Gem Identification"
+theme = "cupper-hugo-theme"
+
+[params]
+	author = "Vangelis R. Velázquez González"
+	description = "artist & designer based in LA"
+
+[taxonomies]
+ 	category = 'categories'
+ 	tag = 'tags'
+
+[menu]
+	[[menu.nav]]
+		name = 'home'
+		url = '/'
+		weight = '1'
+	[[menu.nav]]
+		name = 'notes'
+		url = '/posts/'
+		weight = '2'
+	[[menu.nav]]
+		name = 'tags'
+		url = '/tags/'
+		weight = 3
+	[[menu.nav]]
+		name = 'about'
+		url = '/about/'
+		weight = '4'
+	[[menu.nav]]
+		name = 'rss'
+		url = '/index.xml'
+		weight = '5'
+
+
+
+# social links
+[[params.social]]
+	name = "Github"
+	icon = "fa fa-github fa-2x"
+	weight = 1
+	url = "https://github.com/vrvg/"
+[[params.social]]
+	name = "Instagram"
+	icon = "fa fa-instagram fa-2x"
+	weight = 3
+	url = "https://instagram.com/vangelisious/"
